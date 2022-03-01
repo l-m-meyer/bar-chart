@@ -1,9 +1,11 @@
-/* @import "element"; */
+/* @import "_element.scss"; */
 
-div Element {
-  max-width: 400px;
-  max-height: 400px;
-  background-color: aquamarine;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
+div#element {
+  width: 400px;
+  height: 400px;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: lightcyan;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
 }
