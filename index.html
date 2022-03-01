@@ -5,24 +5,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bar Chart Generator</title>
-  <link rel="stylesheet" src="">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <script type="text/javascript" src="barchart.js"></script>
 
 </head>
 <body>
   <h2>Enter Information</h2>
-  <p>Chart Name: <input type="text" id="chart-name" name="chart-label" required></p>
-  <p>X-Axis Label: <input type="text" id="x-axis-label" name="chart-label" required></p>
-  <p>Y-Axis Label: <input type="text" id="y-axis-label" name="chart-label" required></p>
-  <p>Bar Spacing Preference:
-    <!-- narrow bar spacing option -->
-    <input type="radio" id="narrow" name="spacing" value="narrow" checked>
-    <label for="narrow">Narrow</label>
-    <!-- wide bar spacing option -->
-    <input type="radio" id="wide" name="spacing" value="wide" checked>
-    <label for="wide">Wide</label>
-  </p>
-
+  <div class="chart-style">
+    <p>Chart Name: <input type="text" id="chart-name" name="chart-label" required></p>
+    <p>X-Axis Label: <input type="text" id="x-axis-label" name="chart-label" required></p>
+    <p>Y-Axis Label: <input type="text" id="y-axis-label" name="chart-label" required></p>
+    <p>Bar Spacing Preference:
+      <!-- narrow bar spacing option -->
+      <input type="radio" id="narrow" name="spacing" value="narrow" checked>
+      <label for="narrow">Narrow</label>
+      <!-- wide bar spacing option -->
+      <input type="radio" id="wide" name="spacing" value="wide" checked>
+      <label for="wide">Wide</label>
+    </p>
+  </div>
   <div id="element"></div>
 </body>
 </html>

@@ -1,0 +1,9 @@
+/* @import "element"; */
+
+div Element {
+  max-width: 400px;
+  max-height: 400px;
+  background-color: aquamarine;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+}
