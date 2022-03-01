@@ -10,6 +10,19 @@
 
 </head>
 <body>
+  <h2>Enter Information</h2>
+  <p>Chart Name: <input type="text" id="chart-name"></p>
+  <p>X-Axis Label: <input type="text" id="x-axis-label"></p>
+  <p>Y-Axis Label: <input type="text" id="y-axis-label"></p>
+  <p>Bar Spacing Preference:
+    <!-- narrow bar spacing option -->
+    <input type="radio" id="narrow" name="spacing" value="narrow" checked>
+    <label for="narrow">Narrow</label>
+    <!-- wide bar spacing option -->
+    <input type="radio" id="wide" name="spacing" value="wide" checked>
+    <label for="wide">Wide</label>
+  </p>
+
   <div id="element"></div>
 </body>
 </html>

@@ -23,7 +23,8 @@ function barSizes(width, height) {
 
 // stylize bar chart
 function styleBar(bar, label, spacing, axes) {
-
+  //generate random colour for bars, editable later
+  
 }
 
 // X-axis labels for data
